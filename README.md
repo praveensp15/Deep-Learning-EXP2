@@ -14,7 +14,8 @@ You are required to help the manager to predict the right group of the new custo
 
 # Neural Network Model
 
-<img width="1045" height="801" alt="image" src="https://github.com/user-attachments/assets/d943f718-f61c-4f94-9b22-8b366204b30f" />
+<img width="1045" height="801" alt="image" src="https://github.com/user-attachments/assets/04ab7837-e828-4dd1-9570-401f7071ebb6" />
+
 
 
 # DESIGN STEPS
@@ -192,7 +193,7 @@ x_single_prediction = np.argmax(model.predict(X_test_scaled[1:2, :]), axis=1)
 print(x_single_prediction)
 print(le.inverse_transform(x_single_prediction))
 ```
-**Dataset Information**
+# Dataset Information
 
 <img width="1265" height="364" alt="image" src="https://github.com/user-attachments/assets/4d8547b0-2203-43c5-98eb-0ba496da3ffa" />
 
@@ -223,7 +224,7 @@ print(le.inverse_transform(x_single_prediction))
 <img width="822" height="300" alt="image" src="https://github.com/user-attachments/assets/c59cf4a9-830c-4c22-8ffa-a920412af385" />
 
 
-**RESULT**
+# RESULT
 
 Thus a neural network classification model is developed for the given dataset.
 
