@@ -66,9 +66,9 @@ Evaluate the model using confusion matrix.
 
 # PROGRAM
 
-**Name:** HANIEL REENA D R
+**Name:** Nishal K
 
-**Register Number:** 2305001008
+**Register Number:** 2305001021
 ```
 import pandas as pd
 from sklearn.model_selection import train_test_split
